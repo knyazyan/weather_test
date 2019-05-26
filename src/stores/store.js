@@ -6,13 +6,7 @@ import actions from "./actions";
 import mutations from "./mutations";
 import getters from "./getters";
 
-import Auth from "./modules/auth/store";
-import Layouts from "./modules/layouts/store";
-import Controls from "./modules/controls/store";
-import Blocks from "./modules/blocks/store";
-import ServiceSearch from "./modules/service_search/store";
-import Orders from "./modules/orders/store";
-
+import Weather from "./modules/weather/store";
 
 Vue.use(Vuex);
 
@@ -22,6 +16,6 @@ export default new Vuex.Store({
   mutations,
   actions,
   modules: {
-    auth: Auth
+    weather: Weather
   },
 });

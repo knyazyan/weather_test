@@ -1,27 +1,19 @@
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+  <v-app>
+    <router-view></router-view>
+  </v-app>
 </template>
 
 <script>
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
-
   },
-  mounted() {
-    if (navigator.geolocation) {
-      console.log(navigator.geolocation)
-    }
-    else {
-      console.log('no')
+  data () {
+    return {
+      //
     }
   }
 }
 </script>
-
-<style>
-
-</style>
