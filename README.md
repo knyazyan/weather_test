@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # weather-test
 
 ## Project setup
@@ -28,7 +27,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-=======
 # README #
 
 This README would normally document whatever steps are necessary to get your application up and running.
@@ -58,4 +56,3 @@ This README would normally document whatever steps are necessary to get your app
 
 * Repo owner or admin
 * Other community or team contact
->>>>>>> 767233084baa71d057b7839a093322cfbf23d5c7
